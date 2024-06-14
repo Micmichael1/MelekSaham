@@ -754,6 +754,6 @@ if __name__ == '__main__':
         json_modul = json.load(open_modul)
     with open('saham_per_sector.json', 'r') as open_saham_per_sector:
         saham_per_sector = json.load(open_saham_per_sector)
-    key_goAPI = "TbZXoTsXp9Va3NKwVub6JBRjQkFkGi"
+    key_goAPI = ""
     print("MelekSaham is activated")
     executor.start_polling(dp)
