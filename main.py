@@ -348,7 +348,7 @@ class QA():
             # Jawaban = "Maaf, saya tidak memiliki pengetahuan mengenai "+ x for x in (data['stemmed'].iloc[0].split())
             return Jawaban
 
-Token = '6150390103:AAGAYSgspKsA5V7ap8zAJQKezwddEVnSpog'
+Token = ''
 BOT_USERNAME = '@MelekSaham_bot'
 bot = Bot(token=Token)
 # bot = Bot(token=Token, proxy='http://proxy.server:3128')
